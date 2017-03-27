@@ -1,3 +1,5 @@
+require_relative '../../db/config'
+
 class Hacker < ActiveRecord::Base
   belongs_to :address
   has_many :favorite_quotes
